@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(shutterstock_1926546002-crop-1.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+ }
+
+
+ .container .navbar{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(240, 255, 255, 0.497);
+
+}
+
+
+.navbar .internet{
+  display: inline-block;   
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+
+.navbar .internet a{
+    text-decoration: none;
+    font-size: 40px;
+font-family: sans-serif;
+color: rgb(238, 237, 246);
+line-height: 80px;
+
+}
+
+
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+
+}
+
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+
+
+.navbar ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 4px 9px;
+    font-family: sans-serif;
+}
+
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color: chocolate;
+    border-radius: 2px;
+}
+
+
+
+.container .center{
+   position: absolute; 
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-family: sans-serif;
+   user-select: none;
+}
+
+
+.center h1{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.629);
+    background-size: 2px;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
